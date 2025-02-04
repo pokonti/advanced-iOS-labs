@@ -13,7 +13,6 @@ struct ContentView: View {
             HomeView()
                 .tabItem {
                     Label("Home", systemImage: "person")
-                       
                 }
             FoggyFutureView()
                 .tabItem {
