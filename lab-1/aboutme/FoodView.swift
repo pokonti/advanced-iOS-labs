@@ -28,11 +28,6 @@ struct FoodView: View {
                 }
             }
             .padding()
-        
-                Text("Actually I love everything except doner")
-                    .foregroundStyle(.red)
-                Text("🌯❌")
-                    .font(.title)
         }
         
     }
