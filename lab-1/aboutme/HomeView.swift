@@ -9,13 +9,29 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
-                .font(.title)
-            Text("My name is Aknur")
-                .foregroundStyle(.indigo)
+        NavigationStack {
+            VStack{
+                Text("Hello, world!")
+                    .font(Font.custom("LavishlyYours-Regular", size: 50))
+                Text("My name is Aknur")
+                    .foregroundStyle(.indigo)
+                   
+                Image("me")
+                    .padding()
+                
+                Text("19 лет, enjoying my life, туда-сюда миллионер, стартапер")
+                    .foregroundStyle(Color("myColor"))
+                
+                Spacer()
+                NavigationLink(destination: MoreInfoView()){
+                    Text("More info")
+                        .foregroundStyle(.indigo)
+                }
+                    
+            }
+            .padding()
         }
-        .padding()
+        .navigationTitle("Home")
     }
 }
 

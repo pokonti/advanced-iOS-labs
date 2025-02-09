@@ -15,6 +15,8 @@
 		6C1E8A092D528251001A0633 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E8A082D528251001A0633 /* HomeView.swift */; };
 		6C1E8A0B2D528303001A0633 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E8A0A2D528303001A0633 /* FoodView.swift */; };
 		6C1E8A0D2D52849E001A0633 /* FoggyFutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E8A0C2D52849E001A0633 /* FoggyFutureView.swift */; };
+		6C880E302D58B10400D28E84 /* LavishlyYours-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C880E2F2D58B10400D28E84 /* LavishlyYours-Regular.ttf */; };
+		6C880E332D58B70200D28E84 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C880E322D58B70200D28E84 /* MoreInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,9 @@
 		6C1E8A082D528251001A0633 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6C1E8A0A2D528303001A0633 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		6C1E8A0C2D52849E001A0633 /* FoggyFutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoggyFutureView.swift; sourceTree = "<group>"; };
+		6C880E2F2D58B10400D28E84 /* LavishlyYours-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LavishlyYours-Regular.ttf"; path = "../../../../LavishlyYours-Regular.ttf"; sourceTree = "<group>"; };
+		6C880E312D58B13D00D28E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6C880E322D58B70200D28E84 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +64,17 @@
 		6C1E89F72D527FC1001A0633 /* aboutme */ = {
 			isa = PBXGroup;
 			children = (
+				6C880E312D58B13D00D28E84 /* Info.plist */,
 				6C1E89F82D527FC1001A0633 /* aboutmeApp.swift */,
 				6C1E89FA2D527FC1001A0633 /* ContentView.swift */,
+				6C880E2F2D58B10400D28E84 /* LavishlyYours-Regular.ttf */,
 				6C1E89FC2D527FC3001A0633 /* Assets.xcassets */,
 				6C1E89FE2D527FC3001A0633 /* Preview Content */,
 				6C1E8A062D528136001A0633 /* Data.swift */,
 				6C1E8A082D528251001A0633 /* HomeView.swift */,
 				6C1E8A0A2D528303001A0633 /* FoodView.swift */,
 				6C1E8A0C2D52849E001A0633 /* FoggyFutureView.swift */,
+				6C880E322D58B70200D28E84 /* MoreInfoView.swift */,
 			);
 			path = aboutme;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C1E8A002D527FC3001A0633 /* Preview Assets.xcassets in Resources */,
+				6C880E302D58B10400D28E84 /* LavishlyYours-Regular.ttf in Resources */,
 				6C1E89FD2D527FC3001A0633 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +162,7 @@
 				6C1E8A0B2D528303001A0633 /* FoodView.swift in Sources */,
 				6C1E8A0D2D52849E001A0633 /* FoggyFutureView.swift in Sources */,
 				6C1E8A092D528251001A0633 /* HomeView.swift in Sources */,
+				6C880E332D58B70200D28E84 /* MoreInfoView.swift in Sources */,
 				6C1E8A072D528136001A0633 /* Data.swift in Sources */,
 				6C1E89F92D527FC1001A0633 /* aboutmeApp.swift in Sources */,
 			);
@@ -290,6 +300,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"aboutme/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aboutme/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -318,6 +329,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"aboutme/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aboutme/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
