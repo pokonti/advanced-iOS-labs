@@ -17,9 +17,12 @@ struct HomeView: View {
                     .foregroundStyle(.indigo)
                    
                 Image("me")
+                    .resizable()
+                    .scaledToFit()
                     .padding()
                 
                 Text("19 лет, enjoying my life, туда-сюда миллионер, стартапер")
+                    .multilineTextAlignment(.center)
                     .foregroundStyle(Color("myColor"))
                 
                 Spacer()
