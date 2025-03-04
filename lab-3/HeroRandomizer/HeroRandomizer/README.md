@@ -25,6 +25,7 @@ https://akabab.github.io/superhero-api/
 https://akabab.github.io/superhero-api/api/all.json
 ```
 ### Screenshots
-![screenshot](Screenshot2.png)
-![screenshot](Screenshot1.png)
+<img src="Screenshot2.png" alt="screenshot" width="500">
+<img src="Screenshot1.png" alt="screenshot" width="500">
+
 
