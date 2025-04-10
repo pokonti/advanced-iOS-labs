@@ -12,7 +12,7 @@ A modern iOS weather application built with Swift and SwiftUI that demonstrates 
 The app uses the OpenWeatherMap API to fetch various weather data
 
 ## Link 
-https://youtube.com/shorts/VryJ4zWpE7c 
+[link](https://youtube.com/shorts/D8oyil5ia8Q)
 
 
 
